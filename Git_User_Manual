@@ -1,0 +1,11 @@
+!.Go to folder you wanna upload
+Commands:-
+git init
+git add remote origin https://github.com/<username>/<reponame>.git
+git remote -v
+git add .    ( add all files in current dir)
+git commit -m "first commit"
+git push origin master
+
+
+git status (to check status)
