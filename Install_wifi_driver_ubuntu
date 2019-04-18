@@ -1,0 +1,11 @@
+Install_wifi_ubuntu
+First, try to connect with the wired Internet connection (or you can use Mobile Tethering) and use the following commands to install missing WIFI Drivers.
+
+Clone the repository (use your Terminal) git clone https://github.com/lwfinger/rtlwifi_new.git
+
+Checkout to the extended branch git checkout extended OR git checkout origin/extended -b extended
+
+Enter to the cloned folder cd rtlwifi_new
+
+Start installation sudo make install sudo modprobe -r rtl8723de sudo modprobe rtl8723de
+
